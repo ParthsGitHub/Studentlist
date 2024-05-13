@@ -25,6 +25,12 @@ public class StudentList {
         studentList[0] = s1;
         studentList[1] = s2;
         studentList[2] = s3;
+        studentList[3] = s4;
+        
+        //fill in 4 student names before runnning 
+        for (Student s : studentList) {
+            System.out.println(s.getName());
+        }
         
         
     }
